@@ -2,7 +2,8 @@
   height: 100vh;
   min-height: 500px;
   background-image: url("https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-  background-size: cover;
+  background-size: contain;
+  background-color: rgb(6, 6, 20);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -20,6 +21,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0 2em 0 2em;
     padding: 0;
 }
