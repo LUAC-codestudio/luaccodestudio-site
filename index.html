@@ -1,110 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <link rel="stylesheet" href="index.css" />
     <title>luac code studio</title>
-  </head>
-  <body>
-    <div class="notification-bar">
+</head>
+
+<body>
+    <div class="alert alert-primary alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Important Information!</strong>
         <p>Here is a link to the luac nomination form <a href="https://bit.ly/luac-nominate">Nominate Here</a></p>
         <p>Here is a link to the luac code studio director nomination form <a href="https://bit.ly/code-studio-nominate">Nominate LUAC code studio Director Here</a></p>
     </div>
+    <!-- <div class="notification-bar">
+        <p>Here is a link to the luac nomination form <a href="https://bit.ly/luac-nominate">Nominate Here</a></p>
+        <p>Here is a link to the luac code studio director nomination form <a href="https://bit.ly/code-studio-nominate">Nominate LUAC code studio Director Here</a></p>
+    </div> -->
     <div class="home-page">
-       
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light shadow"
-      >
-        <div class="container">
-          <a href="/" class="navbar-brand">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+            <div class="container">
+                <a href="/" class="navbar-brand">
             LUACcodestudio
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a href="/" class="nav-link">
-                  <i class="fas fa-home"></i>
-                  <span class="p-2">Home</span>
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/developers" class="nav-link">
-                  <span class="p-2">Our Developers</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/projects" class="nav-link">
-                  <span class="p-2">Projects</span>
-                </a>
-              </li>
-              
-              <li class="nav-item">
-                <a href="/blog" class="nav-link">
-                  <i class="far fa-comment"></i>
-                  <span class="p-2">Blog</span>
-                </a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-       
-      </nav>
-     
-      
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="/" class="nav-link">
+                                <i class="fas fa-home"></i>
+                                <span class="p-2">Home</span>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/developers" class="nav-link">
+                                <span class="p-2">Our Developers</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/projects" class="nav-link">
+                                <span class="p-2">Projects</span>
+                            </a>
+                        </li>
 
-      <header class="masthead">
-        
-        <div class="container h-100">
-          <div class="row h-100 align-items-center">
-            <div class="col-12 text-center">
-              <h1 class="font-weight-bold text-white">LUAC CODE STUDIO</h1>
-              <p class="lead text-white">
-                Learn. Engage . Co-create
-              </p>
-              <button class="btn btn-primary btn-lg">
+                        <li class="nav-item">
+                            <a href="/blog" class="nav-link">
+                                <i class="far fa-comment"></i>
+                                <span class="p-2">Blog</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+
+
+        <header class="masthead">
+
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="font-weight-bold text-white">LUAC CODE STUDIO</h1>
+                        <p class="lead text-white">
+                            Learn. Engage . Co-create
+                        </p>
+                        <button class="btn btn-primary btn-lg">
                 Get started
               </button>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </header>
+        </header>
 
-      
+
     </div>
-  </body>
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </html>
