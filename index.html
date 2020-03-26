@@ -1,97 +1,396 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zxx">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>LUAC | Code Studio </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="LUAC HTML Template">
+	<meta name="keywords" content="dev, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="" rel="shortcut icon"/>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link rel="stylesheet" href="index.css" />
-    <title>luac code studio</title>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+ 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="assets/css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="assets/css/style.css"/>
+
+
+	
+
 </head>
 
 <body>
-    <div class="alert alert-primary alert-dismissible fade show">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <strong>Important Information!</strong>
-        <p>Here is a link to the luac nomination form <a href="https://bit.ly/luac-nominate">Nominate Here</a></p>
-        <p>Here is a link to the luac code studio director nomination form <a href="https://bit.ly/code-studio-nominate">Nominate LUAC code studio Director Here</a></p>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section clearfix">
+		<a href="index.html" class="site-logo">
+			<!-- <img src="img/" alt=""> -->
+			<h1 style="font-size: 16px; color: #fff;">LUAC CODE STUDIO</h1>
+		</a>
+		<div class="header-right">
+			<a href="#" class="hr-btn">Help</a>
+			<span>|</span>
+			<div class="user-panel">
+				<a href="" class="login">Login</a>
+				<a href="" class="register">Create an account</a>
+			</div> 
+		</div>
+		<ul class="main-menu">
+			<li><a href="">Home</a></li>
+			<li><a href="">Our Developers</a></li>
+			<li><a href="#">Projects</a>
+				<ul class="sub-menu">
+					<li><a href="">Mobile Apps</a></li>
+					<li><a href="">Web Apps</a></li>
+					<li><a href="##">UI/UX</a></li>
+					
+				</ul>
+			</li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</header>
+	<!-- Header section end -->
+
+	<!-- Hero section -->
+	<section class="hero-section">
+		<div class="hero-slider owl-carousel">
+			<div class="hs-item">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hs-text">
+								<h2><span>Skills</span> for everyone.</h2>
+								<p>We are constantly learning, engaging with the community and co-creating </p>
+								<a href="#" class="site-btn">Get Started</a>
+								
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="hr-img">
+								<img src="img/hero-bg.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hs-text">
+								<h2><span>Meet </span> the best in tech.</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+								<a href="#" class="site-btn">Get Started</a>
+								
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="hr-img">
+								<img src="img/hero-bg.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+<!-- Slanting section start -->
+	<header class="slant1" id="header">
+    <div class="skew">
+        <div class="header-inner">
+          
+        </div>
     </div>
-    <!-- <div class="notification-bar">
-        <p>Here is a link to the luac nomination form <a href="https://bit.ly/luac-nominate">Nominate Here</a></p>
-        <p>Here is a link to the luac code studio director nomination form <a href="https://bit.ly/code-studio-nominate">Nominate LUAC code studio Director Here</a></p>
-    </div> -->
-    <div class="home-page">
+  </header>
+  <!-- Slanting section end -->
+	
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
-            <div class="container">
-                <a href="/" class="navbar-brand">
-            LUACcodestudio
-          </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a href="/" class="nav-link">
-                                <i class="fas fa-home"></i>
-                                <span class="p-2">Home</span>
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/developers" class="nav-link">
-                                <span class="p-2">Our Developers</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/projects" class="nav-link">
-                                <span class="p-2">Projects</span>
-                            </a>
-                        </li>
+	<!-- Hero section end -->
 
-                        <li class="nav-item">
-                            <a href="/blog" class="nav-link">
-                                <i class="far fa-comment"></i>
-                                <span class="p-2">Blog</span>
-                            </a>
-                        </li>
+	<!-- Intro section -->
+	<section class="intro-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>ABOUT LUAC CODE STUDIO</h2>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+					<a href="#" class="site-btn">LEARN MORE</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Intro section end -->
 
-                    </ul>
-                </div>
-            </div>
-
-        </nav>
-
-
-
-        <header class="masthead">
-
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 text-center">
-                        <h1 class="font-weight-bold text-white">LUAC CODE STUDIO</h1>
-                        <p class="lead text-white">
-                            Learn. Engage . Co-create
-                        </p>
-                        <button class="btn btn-primary btn-lg">
-                Get started
-              </button>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-
+	<!-- Slanting section start -->
+	<header class="slant1" id="header">
+    <div class="skew">
+        <div class="header-inner">
+          
+        </div>
     </div>
-</body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </header>
+  <!-- Slanting section end -->
+	<!-- Tool section -->
+	<section class="how-section spad set-bg" data-setbg="img/how-to-bg.jpg">
+		<div class="container text-white">
+			<div class="section-title">
+				<h2>Technologies and Tools we use</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="how-item">
+						<div class="hi-icon">
+							<img src="img/icons/brain.png" alt="">
+						</div>
+						<h4>Development</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus-pendisse ultrices gravida. </p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="how-item">
+						<div class="hi-icon">
+							<img src="img/icons/pointer.png" alt="">
+						</div>
+						<h4>Management</h4>
+						<p>Donec in sodales dui, a blandit nunc. Pellen-tesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, portti-tor vitae efficitur non. </p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="how-item">
+						<div class="hi-icon">
+							<img src="img/icons/smartphone.png" alt="">
+						</div>
+						<h4>UI/UX</h4>
+						<p>Ablandit nunc. Pellentesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non, ultric-ies volutpat tellus. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Tool section end -->
+	<!-- Slanting section start -->
+	<header class="slant1" id="header">
+    <div class="skew">
+        <div class="header-inner">
+          
+        </div>
+    </div>
+  </header>
+  <!-- Slanting section end -->
+
+	<!-- Concept section -->
+	<section class="concept-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Our Concept</h2>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="concept-item">
+						<img src="" alt="Concept image">
+						<h5>Learn</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="concept-item">
+						<img src="" alt="Concept image">
+						<h5>Engage</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="concept-item">
+						<img src="" alt="Concept image">
+						<h5>Co-create</h5>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- Concept section end -->
+
+	<!-- Slanting section start -->
+	<header class="slant1" id="header">
+    <div class="skew">
+        <div class="header-inner">
+          
+        </div>
+    </div>
+  </header>
+  <!-- Slanting section end -->
+	<!-- Subscription section -->
+	<section class="subscription-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="sub-text">
+						<h2>Subscription from Shs. 50000/month for extra benefits</h2>
+						<h3>Join Our team Now</h3>
+						<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#" class="site-btn"> Subscribe</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<ul class="sub-list">
+						<li><img src="img/icons/check-icon.png" alt="">Benefit</li>
+						<li><img src="img/icons/check-icon.png" alt="">Benefit</li>
+						<li><img src="img/icons/check-icon.png" alt="">Benefit</li>
+						<li><img src="img/icons/check-icon.png" alt="">Benefit</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Subscription section end -->
+
+	<!-- Premium section end -->
+	<section class="premium-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Why go Premium</h2>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="premium-item">
+						<img src="" alt="img">
+						<h4>Enjoy free invites to events </h4>
+						<p>Consectetur adipiscing elit</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="premium-item">
+						<img src="" alt="img">
+						<h4>High Quality</h4>
+						<p>Ectetur adipiscing elit</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="premium-item">
+						<img src="" alt="img">
+						<h4>Acces toTraining Resources</h4>
+						<p>Sed do eiusmod tempor </p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="premium-item">
+						<img src="" alt="img">
+						<h4>Link to Opportunities</h4>
+						<p>Adipiscing elit</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Premium section end -->
+	<!-- Slanting section start -->
+	<header class="slant1" id="header">
+    <div class="skew">
+        <div class="header-inner">
+          
+        </div>
+    </div>
+  </header>
+  <!-- Slanting section end -->
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-7 order-lg-2">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="footer-widget">
+								<h2>About us</h2>
+								<ul>
+									<li><a href="">Our Story</a></li>
+									<li><a href="">Code Studio</a></li>
+									<li><a href="">Trends</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="footer-widget">
+								<h2>Products</h2>
+								<ul>
+									<li><a href="">Projects</a></li>
+									<li><a href="">Subscription</a></li>
+									<li><a href="">Custom Apps</a></li>
+									<li><a href="">Footage</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="footer-widget">
+								<h2>Info</h2>
+								<ul>
+									<li><a href="">Newsletter</a></li>
+									<li><a href="">Careers</a></li>
+									<li><a href="">Press</a></li>
+									<li><a href="">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-5 order-lg-1">
+					<img src="img/" alt="luac-logo">
+					<div class="copyright">
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | LUAC CODE STUDIO
+					</div>
+					<div class="social-links">
+						<a href=""><i class="fa fa-github"></i></a>
+						<a href=""><i class="fa fa-instagram"></i></a>
+						<a href=""><i class="fa fa-pinterest"></i></a>
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+	
+	<!--====== Javascripts & Jquery ======-->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.slicknav.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/mixitup.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	</body>
 
 </html>
