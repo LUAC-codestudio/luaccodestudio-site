@@ -1,0 +1,104 @@
+.logo_wrapper {
+  width: 60px; }
+
+.hero_wrapper {
+  background: #0a183d; }
+  .hero_wrapper .hero_header_text h2 {
+    color: #fff;
+    padding-bottom: 0.5em; }
+
+.hero_img_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0; }
+  .hero_img_wrapper .hero_img {
+    margin: 3em 0;
+    border-radius: 2em; }
+
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: white; }
+  .nav_wrapper a,
+  .nav_wrapper a:link {
+    color: #0a183d;
+    text-decoration: none;
+    font-weight: bold; }
+  .nav_wrapper a:visited {
+    color: #fc0254; }
+  .nav_wrapper a:hover {
+    color: #fc0254; }
+
+.nav_bar {
+  display: flex;
+  align-items: center;
+  margin: 0.5em auto; }
+  .nav_bar .nav_get_in_touch_btn {
+    border: #fc0254 solid;
+    border-radius: 50px;
+    padding: 0.5em; }
+
+.nav_links_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1; }
+  .nav_links_wrapper .nav_links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none; }
+    .nav_links_wrapper .nav_links li {
+      margin: 0 1em; }
+
+.menu_icon {
+  display: none; }
+
+.menu_links {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  background-color: white;
+  border-radius: 25px;
+  animation: show_mobile_menu 0.3s;
+  animation-timing-function: ease-in; }
+  .menu_links a,
+  .menu_links a:link {
+    color: #0a183d;
+    text-decoration: none;
+    font-weight: bold; }
+  .menu_links a:visited {
+    color: #fc0254; }
+  .menu_links a:hover {
+    color: #fc0254; }
+  .menu_links .close_icon {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em; }
+  .menu_links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 1em auto; }
+    .menu_links ul li {
+      margin: 0.4em 0; }
+
+@media screen and (max-width: 991px) {
+  .nav_bar .nav_links li {
+    display: none; }
+  .nav_bar .menu_icon {
+    display: flex; } }
+
+@keyframes show_mobile_menu {
+  from {
+    top: -300px; }
+  to {
+    top: 0px; } }

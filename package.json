@@ -1,0 +1,29 @@
+{
+  "name": "luaccodestudio-site",
+  "version": "1.0.0",
+  "description": "Official luac code studio site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LUAC-codestudio/luaccodestudio-site.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "luac"
+  ],
+  "author": "luac codestudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LUAC-codestudio/luaccodestudio-site/issues"
+  },
+  "homepage": "https://github.com/LUAC-codestudio/luaccodestudio-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1"
+  }
+}
