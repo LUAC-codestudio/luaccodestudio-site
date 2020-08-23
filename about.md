@@ -1,1 +1,1 @@
-Official LUAC code studio site
+LUAC code studio site
